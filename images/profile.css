@@ -132,3 +132,40 @@ main section{
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+/* 3rd section */
+.resume-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.section-title{
+    display: flex;
+    justify-content: center;
+}
+.experiance-descripation{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+.experiance-sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+.experience-titile{
+    color: #757575;
+}
+hr{
+   margin-top: 30px 5px; 
+}
+.btn-download-cv{
+width: 140px;
+height: 30px;
+border-radius: 5px;
+border: solid #FD6E0A;
+background-color: #FD6E0A;
+text-align: center;
+text-decoration: solid;
+}
