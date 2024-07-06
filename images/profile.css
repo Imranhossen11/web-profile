@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* font-family: "Open Sans", sans-serif; */
+
+.open-sans-uniquifier{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+ }
+ .text-center{
+    text-align: center;
+ }
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+    
+}
+.nav-title{
+    font-weight: 800px;
+    font-size: 45px;
+
+}
+.text-primary{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 20px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    margin-right: 51px;
+}
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 35px 0px 200px ;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size:85px ;
+}
+.banner-descripation{
+    font-size: 18px;
+    font-weight: 400px;
+}
+.banner-image{
+    width: 584px;
+
+}
+.banner-contant{
+    max-width: 580px;
+}
+.header{
+    background-image: url(developer.png) ,url(header_bg.png);
+    background-repeat:no-repeat;
+    background-position: top left, bottom right;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-descripation{
+        font-size: 18px;
+        color: #757575;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* about */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    /* margin-top: 130px; */
+
+}
+.about-itmes{
+    display: flex;
+    justify-content: space-around;
+}
+.item-descripation{
+    font-weight: 600px;
+}
+
+/* 2nd Section */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
