@@ -137,6 +137,10 @@ main section{
     display: flex;
     gap: 24px;
     justify-content: center;
+    flex-wrap: wrap
+}
+.resume-colum{
+    width: 48%;
 }
 .section-title{
     display: flex;
@@ -161,14 +165,14 @@ hr{
    margin-top: 30px 5px; 
 }
 .btn-download-cv{
-    justify-content: center;
-width: 140px;
-height: 30px;
-border-radius: 5px;
-border: solid #FD6E0A;
-background-color: #FD6E0A;
-text-align: center;
-text-decoration: solid;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+
 }
 /* 4th Section */
 .footers{
@@ -176,6 +180,7 @@ text-decoration: solid;
     gap: 40px;
     background-color: #FFF8F3;
     padding: 200px;
+    display: ;
 }
 .footer-title{
     display: flex;
@@ -187,10 +192,31 @@ text-decoration: solid;
     font-weight: 400px;
 }
 .footer-submit-btn{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
     border-radius: 5px;
+    font-size: 20px;
+    border: none;
 
 background: rgb(253, 110, 10);
 }
-.footer-end{
+footer input[type="text"],footer input[type="email"], footer textarea{
     
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+}
+.textarea-message{
+    width: 200px;
+    height: 100px;
+}
+footer input[type="text"],footer input[type="email"]{
+ width: 100%;
+ height: 30px;
 }
