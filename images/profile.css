@@ -161,6 +161,7 @@ hr{
    margin-top: 30px 5px; 
 }
 .btn-download-cv{
+    justify-content: center;
 width: 140px;
 height: 30px;
 border-radius: 5px;
@@ -168,4 +169,28 @@ border: solid #FD6E0A;
 background-color: #FD6E0A;
 text-align: center;
 text-decoration: solid;
+}
+/* 4th Section */
+.footers{
+    display: flex;
+    gap: 40px;
+    background-color: #FFF8F3;
+    padding: 200px;
+}
+.footer-title{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+.footer-descripation{
+    font-size: 16px;
+    font-weight: 400px;
+}
+.footer-submit-btn{
+    border-radius: 5px;
+
+background: rgb(253, 110, 10);
+}
+.footer-end{
+    
 }
